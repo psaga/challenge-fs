@@ -1,18 +1,18 @@
 Este repositorio contiene dos aplicaciones: una API y un cliente.
 
-#####API
+#### API
 La API está desarrollada con NestJS y se encuentra en la carpeta /api.
-#####Cliente
+#### Cliente
 El cliente está desarrollado con Vite y React y se encuentra en la carpeta /client.
 
-#####Entorno de desarrollo
+#### Entorno de desarrollo
 Para ejecutar las dos aplicaciones, necesita tener instalados:
 
 - Node.js
 - Yarn o NPM
 - PostgreSQL
 
-#####Pasos para correr localmente
+#### Pasos para correr localmente
 
 1. Crear BD para Postgres.
 2. Este repositorio utiliza mailgun para envío de emails por lo cual hace falta crear cuenta en mailgun y generar y api key junto con api domain.
