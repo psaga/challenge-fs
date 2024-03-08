@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .header {
+        background-color: #ff4200;
+        color: #ffffff;
+        padding: 20px 0;
+        font-size: 20px;
+      }
+      .content {
+        padding: 30px 20px;
+      }
+      .welcome {
+        font-size: 40px;
+        font-weight: 700;
+        color: #ff4200;
+      }
+      .thanks-message {
+        padding: 5px 0px 20px 0px;
+        font-size: 16px;
+        color: #000000;
+      }
+      .button-message {
+        font-size: 14px;
+        margin: 20px 0;
+        display: block;
+        color: #000000;
+      }
+      .button {
+        background-color: #ff4200;
+        color: #ffffff !important;
+        padding: 10px 45px;
+        text-decoration: none;
+        margin-top: 30px;
+        border-radius: 5px;
+        display: inline-block;
+      }
+      .close-message {
+        font-weight: bold;
+        margin-top: 30px;
+      }
+      .footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+      .logo {
+        font-size: 14px;
+        color: #ff4200;
+      }
+      .info {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Deli</div>
+      <div class="content">
+        <div class="welcome">¡Bienvenido a deli {{username}}!</div>
+        <div class="thanks-message">
+          Muchas gracias por unirte a nuestra comunidad
+        </div>
+        <div class="button-message">
+          Haz click en el siguiente botón para confirmar tu registro:
+        </div>
+        <a href="https://deli.com.br/pt-br/" class="button">INGRESAR</a>
+        <div class="close-message">
+          ¡Esperamos que lo disfrutes tanto como nosotros!
+        </div>
+      </div>
+      <div class="footer">
+        <div class="logo">Deli</div>
+        <div class="info">
+          Si necesitas ayuda no dudes en dirigirte a nuestra área de soporte o
+          contactarnos a través del <b>chat del sistema.</b>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
