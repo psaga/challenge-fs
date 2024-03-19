@@ -12,7 +12,6 @@ export const connectionSource = new DataSource({
   database: process.env.DB_NAME,
   logging: false,
   synchronize: false,
-  ssl: true,
   name: 'default',
   entities: ['src/**/**.entity{.ts,.js}'],
   migrations: ['migrations/*{.ts,.js}'],

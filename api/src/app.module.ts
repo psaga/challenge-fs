@@ -16,7 +16,6 @@ import { UserModule } from './user/user.module';
         password: configService.get('DB_PASSWORD'),
         database: configService.get('DB_NAME'),
         autoLoadEntities: true,
-        ssl: true,
         synchronize: false,
       }),
       inject: [ConfigService],
